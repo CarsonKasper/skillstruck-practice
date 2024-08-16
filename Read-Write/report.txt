@@ -1,0 +1,5 @@
+When your program is finished reading the file, 
+it's important to close it. This helps to free
+up working memory. This is done in your Python 
+file by calling the close() function on your 
+variable named file.
