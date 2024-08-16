@@ -1,0 +1,5 @@
+file = open("report.txt", 'a')
+file.write('Quote was said by Gandhi')
+file.close()
+file = open("TextFile.txt", 'r')
+print(file.read())
