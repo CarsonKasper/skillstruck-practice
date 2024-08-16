@@ -1,0 +1,6 @@
+file = open("report.txt", 'w')
+answer = input('what so you want to say?')
+file.write(answer)
+file.close()
+file = open("report.txt", 'r')
+print(file.read())
